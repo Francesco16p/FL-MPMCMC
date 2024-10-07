@@ -3,7 +3,7 @@ This repository is associated with the article [Pozza and Zanella (2024+). *On t
 
 >Multiple-proposals schemes are a class of Markov chain Monte Carlo methods that generate, at each iteration, the next state of the chain by selecting it from several candidate points. In spite of their popularity, their theoretical properties are still not  well understood. We fill such a gap by first introducing a simple, yet powerful, stylized representation able to link every multiple-proposals scheme to a simpler single-proposal algorithm. This result is then exploited to study how the spectral gap of any multiple-proposals algorithm can increase with number of proposed points.
 
-This repository provides **code to reproduce the simulation results presented in Section 4 the paper**. To do so, create the folder `Logistic` and download the `R` codes below into it. Finally, run `Simulation logistic regression.R` after selecting `Logistic` as the working directory. See the corresponding R code for more information on the parameters of each function.
+This repository provides **code to reproduce the simulation results presented in Section 4 of the paper**. To do so, create the folder `Logistic` and download the `R` codes below into it. Finally, run `Simulation logistic regression.R` after selecting `Logistic` as the working directory. See the corresponding R code for more information on the parameters of each function.
 
 - [`Simulation logistic regression.R`](https://github.com/Francesco16p/FL-MPMCMC/blob/main/Simulation%20logistic%20regression.R). This file contains the code needed to reproduce the simulation study on high-dimensional logistic regression reported in Section 4 of the paper.
   
@@ -18,7 +18,7 @@ This repository provides **code to reproduce the simulation results presented in
 - [`Log_densities.R`](https://github.com/Francesco16p/FL-MPMCMC/blob/main/Log_densities.R). R code containing the log-densities for the posterior distribution of a Bayesian logistic model and for a multivariate normal distribution.
 
 - [`Log_derivatives.R`](https://github.com/Francesco16p/FL-MPMCMC/blob/main/Log_derivatives.R). R code containing the first derivative for the log-density reported in `Log_densities.R`
-- [`Summary stats.R`](https://github.com/Francesco16p/FL-MPMCMC/blob/main/Summary%20stats.R). R code to obtain Expected Squared Jumping Distance (ESJD) of a Markov chain.
+- [`Summary stats.R`](https://github.com/Francesco16p/FL-MPMCMC/blob/main/Summary%20stats.R). R code to obtain the Expected Squared Jumping Distance (ESJD) of a Markov chain.
 
   
 
