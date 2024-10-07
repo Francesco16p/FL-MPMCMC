@@ -7,17 +7,17 @@ This repository provides **code to reproduce the simulation results presented in
 
 - [`Simulation logistic regression.R`](https://github.com/Francesco16p/FL-MPMCMC/blob/main/Simulation%20logistic%20regression.R). This file contains the code needed to reproduce the simulation study on high-dimensional logistic regression reported in Section 4 of the paper.
   
-- [`MTM algorithm.R`](https://github.com/Francesco16p/FL-MPMCMC/blob/main/MTM%20algorithm.R). R implementation for the multiple-try Metropolis algorithms with random walk proposal described in Section 4 of the paper.
+- [`MTM algorithm.R`](https://github.com/Francesco16p/FL-MPMCMC/blob/main/MTM%20algorithm.R). R implementation for the multiple-try Metropolis algorithms with random walk proposals described in Section 4 of the paper.
 
-- [`Generalised Metropolis.R`](https://github.com/Francesco16p/FL-MPMCMC/blob/main/Generalised%20Metropolis.R). R implementation for the generalised Metropolis algorithm with random walk proposal described in Section 4 of the paper.
+- [`Generalised Metropolis.R`](https://github.com/Francesco16p/FL-MPMCMC/blob/main/Generalised%20Metropolis.R). R implementation for the generalised Metropolis algorithm with random walk proposals described in Section 4 of the paper.
 
-- [`MTM MALA algorithm.R`](https://github.com/Francesco16p/FL-MPMCMC/blob/main/MTM%20MALA%20algorithm.R). R implementation for the multiple-try Metropolis algorithms with MALA proposal described in Section 4 of the paper.
+- [`MTM MALA algorithm.R`](https://github.com/Francesco16p/FL-MPMCMC/blob/main/MTM%20MALA%20algorithm.R). R implementation for the multiple-try Metropolis algorithms with MALA proposals described in Section 4 of the paper.
 
 - [`MALA algorithm.R`](https://github.com/Francesco16p/FL-MPMCMC/blob/main/MALA%20algorithm.R). R implementation for single-proposal MALA algorithm.
 
 - [`Log_densities.R`](https://github.com/Francesco16p/FL-MPMCMC/blob/main/Log_densities.R). R code containing the log-densities for the posterior distribution of a Bayesian logistic model and for a multivariate normal distribution.
 
-- [`Log_derivatives.R`](https://github.com/Francesco16p/FL-MPMCMC/blob/main/Log_derivatives.R). R code containing the first derivative for the log-density reported in `Log_densities.R`
+- [`Log_derivatives.R`](https://github.com/Francesco16p/FL-MPMCMC/blob/main/Log_derivatives.R). R code containing the first derivative for the log-densities reported in `Log_densities.R`
 - [`Summary stats.R`](https://github.com/Francesco16p/FL-MPMCMC/blob/main/Summary%20stats.R). R code to obtain the Expected Squared Jumping Distance (ESJD) of a Markov chain.
 
   
