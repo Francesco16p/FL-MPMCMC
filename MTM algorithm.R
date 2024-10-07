@@ -9,7 +9,6 @@
 # sd_0 : initial sd of the proposal distribution 
 # alpha_s : optimal acceptance probability (for adaptation)
 # d : dimension target density
-# adaptive : (logical) should adaptation of the proposal be used?
 
 MTM <- function(nsim, K, log_den ,pars,  prop_method =c("ind","anti"),
                 weight_fun = c("identity","sqrt"), sd_0, alpha_s,d)
